@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: blueviolet;
+
+}
+.container{
+    
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    
+}
+.image-container img{
+    position: relative;
+    top: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    position: relative;
+    top: -5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    letter-spacing: 2px;
+}
+h2{
+    position: relative;
+    top: -30px;
+    color: red;
+}
+p{
+    position: relative;
+    top: -40px;
+    padding: 0 20px;
+}
+.btn button{
+    position: relative;
+    color: white;
+    top: -40px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    background-color: deeppink;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.fa-brands{
+    color: blue;
+    margin: 0 4px;
+    cursor: pointer;
+    padding: 0 4px;
+}
+.btn button:hover{
+    background-color: rgb(189, 189, 11);
+    
+}
+
